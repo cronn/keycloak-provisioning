@@ -149,6 +149,28 @@
     "include.in.token.scope" : "true",
     "display.on.consent.screen" : "false"
   },
+  "description" : "Grants access to the Keycloak Admin REST API by adding its required audience to the token",
+  "id" : "[id]",
+  "name" : "kc-admin-api",
+  "protocol" : "openid-connect",
+  "protocolMappers" : [ {
+    "config" : {
+      "access.token.claim" : "true",
+      "introspection.token.claim" : "true",
+      "lightweight.claim" : "true"
+    },
+    "consentRequired" : false,
+    "consentText" : null,
+    "id" : "[id]",
+    "name" : "admin-api-audience",
+    "protocol" : "openid-connect",
+    "protocolMapper" : "oidc-admin-api-audience-mapper"
+  } ]
+}, {
+  "attributes" : {
+    "include.in.token.scope" : "true",
+    "display.on.consent.screen" : "false"
+  },
   "description" : "Microprofile - JWT built-in scope",
   "id" : "[id]",
   "name" : "microprofile-jwt",

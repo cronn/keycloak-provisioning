@@ -66,7 +66,7 @@ dependencies {
     testImplementation(platform("org.testcontainers:testcontainers-bom:latest.release"))
     // DPoP proofs need a crypto provider on the classpath; the admin client does not bring one,
     // see https://github.com/keycloak/keycloak/issues/27916.
-    testRuntimeOnly("org.keycloak:keycloak-crypto-default:26.8.1")
+    testRuntimeOnly("org.keycloak:keycloak-crypto-default:26.8.2")
     testImplementation("org.junit.jupiter:junit-jupiter-params")
     testImplementation("org.assertj:assertj-core:latest.release")
     testImplementation("org.testcontainers:testcontainers")
