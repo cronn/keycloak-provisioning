@@ -9,6 +9,7 @@ public enum KeycloakProvidedClientScope {
   AUTHN_CONTEXT_CLASS_REF("AuthnContextClassRef"),
   BASIC("basic"),
   EMAIL("email"),
+  KC_ADMIN_API("kc-admin-api"),
   MICROPROFILE_JWT("microprofile-jwt"),
   OFFLINE_ACCESS("offline_access"),
   ORGANIZATION("organization"),
