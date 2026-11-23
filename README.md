@@ -75,7 +75,7 @@ Maven:
 |-----------------|-----------------|------|
 | 0.x             | 26.x            | 21+  |
 
-Tested against 26.8.1. From `1.0.0` onwards the major version tracks the supported Keycloak major.
+Tested against 26.8.2. From `1.0.0` onwards the major version tracks the supported Keycloak major.
 While `0.x` lasts, a minor release may still break the API.
 
 The bundled `keycloak-admin-client` is an `api` dependency, so you will see it on your classpath at
@@ -737,7 +737,7 @@ authenticate against the realm as your configuration leaves it.
 ## 📋 Requirements
 
 - Java 21+
-- Keycloak 26.x (tested against 26.8.1)
+- Keycloak 26.x (tested against 26.8.2)
 
 ## 🔗 Related Projects
 
