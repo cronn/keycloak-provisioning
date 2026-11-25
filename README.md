@@ -1,7 +1,7 @@
 [![CI](https://github.com/cronn/keycloak-provisioning/actions/workflows/gradle.yml/badge.svg)](https://github.com/cronn/keycloak-provisioning/actions)
-[![Valid Gradle Wrapper](https://github.com/cronn/keycloak-provisioning/workflows/Validate%20Gradle%20Wrapper/badge.svg)](https://github.com/cronn/keycloak-provisioning/actions/workflows/gradle-wrapper-validation.yml)
 [![Maven Central](https://img.shields.io/maven-central/v/de.cronn/keycloak-provisioning?logo=apache%20maven)](https://search.maven.org/#search|ga|1|g:de.cronn%20AND%20keycloak-provisioning)
 [![Apache 2.0](https://img.shields.io/github/license/cronn/keycloak-provisioning.svg)](http://www.apache.org/licenses/LICENSE-2.0)
+[![Valid Gradle Wrapper](https://github.com/cronn/keycloak-provisioning/actions/workflows/gradle-wrapper-validation.yml/badge.svg)](https://github.com/cronn/keycloak-provisioning/actions/workflows/gradle-wrapper-validation.yml)
 
 # cronn keycloak-provisioning
 
