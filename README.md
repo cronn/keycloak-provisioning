@@ -39,36 +39,6 @@ Maven:
 </dependency>
 ```
 
-## 🧭 Contents
-
-- [Versioning](#-versioning)
-- [Getting started](#-getting-started)
-- [Connecting](#-connecting)
-  - [DPoP-bound tokens](#-dpop-bound-tokens)
-  - [Customizing the HTTP client](#-customizing-the-http-client)
-- [Provisioning an application realm](#️-provisioning-an-application-realm)
-- [Hardening the master realm](#-hardening-the-master-realm)
-  - [Permanent admin](#-permanent-admin)
-  - [Temporary admins](#-temporary-admins)
-  - [admin-cli](#-admin-cli)
-  - [Recovery](#-recovery)
-- [Provisioning](#️-provisioning)
-  - [Authentication flows](#-authentication-flows)
-  - [The user profile](#-the-user-profile)
-  - [Keycloak's own clients](#-keycloaks-own-clients)
-  - [Client hardening](#️-client-hardening)
-  - [Client scopes](#-client-scopes)
-  - [Groups](#-groups)
-  - [Users](#-users)
-  - [Naming](#️-naming)
-- [On-demand changes](#-on-demand-changes)
-  - [On-demand groups](#-on-demand-groups)
-  - [On-demand users](#-on-demand-users)
-  - [On-demand clients and client scopes](#-on-demand-clients-and-client-scopes)
-- [Test fixtures](#-test-fixtures)
-- [Requirements](#-requirements)
-- [Related Projects](#-related-projects)
-
 ## 🔢 Versioning
 
 | Library Version | Keycloak Server | Java |
